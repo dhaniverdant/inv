@@ -4,9 +4,11 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
   return (
-    <div className="footer">Made with
-      <FontAwesomeIcon icon={faHeart} />
-      by <a className="footer-link" href="https://www.linkedin.com/in/rahmad-ramdhani-a08102131/">Rahmad Ramdhani</a>
+    <div className="footer" style={{ marginTop: "15px", marginBottom: "15px" }}>Made with
+      <div>
+        <FontAwesomeIcon icon={faHeart} color={"red"} />
+      </div>
+      by <a className="footer-link" href="https://www.linkedin.com/in/rahmad-ramdhani-a08102131/" style={{ textDecoration: "none" }}>Rahmad Ramdhani</a>
     </div>
   );
 }
