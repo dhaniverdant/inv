@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import '../Asssets/Styles/App.css';
 import Second from './Second';
 import Third from './Third';
@@ -7,18 +8,19 @@ import {
 import Footer from './Footer';
 
 function Landing() {
-  let {id} = useParams();
+  let { id } = useParams();
+  const [open, setOpen] = useState(false);
+  const showHeader = open ? <div><Second />
+    <Third />
+    <Footer /></div> : <header className="App-header">
+    <div>This is Inv to:</div>
+    <div>{id}</div>
+    <button onClick={() => setOpen(true)}>open</button>
+  </header>;
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div>This is Inv to:</div>
-        <div>{id}</div>
-        <button onClick={() => window.location.replace("/#second")}>open</button>
-      </header>
-      <Second />
-      <Third />
-      <Footer />
+      {showHeader}
     </div>
   );
 }
