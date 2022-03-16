@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import '../Asssets/Styles/App.css';
 import Second from './Second';
 import Third from './Third';
+import Footer from './Footer';
 import {
   useParams
 } from "react-router-dom";
-import Footer from './Footer';
+import '../Assets/Styles/App.css';
 
 function Landing() {
   let { id } = useParams();
