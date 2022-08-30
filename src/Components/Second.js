@@ -1,16 +1,33 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import user from '../Assets/Images/user.jpg';
+import '../Assets/Styles/Second.css';
 
 const Second = () => {
   return (
-    <div id="second" style={{ height: "100vh" }}>
-      <h2>Marriage</h2>
-      <p>Assalamu`alaikum Warahmatullaahi Wabarakaatuh</p>
-      <p>Maha Suci Allah yang telah menciptakan makhluk-Nya berpasang-pasangan.<br />
-        Ya Allah semoga ridho-Mu tercurah mengiringi pernikahan kami</p>
-      <div>
-        <img src={user} alt="icon" style={{ width: "180px", height: "180px" }} />
-        <img src={user} alt="icon" style={{ width: "180px", height: "180px" }} />
+    <div id="second">
+      <div className='greetings'>Assalamu’alaikum Wr. Wb.</div>
+      <p>Tanpa mengurangi rasa hormat,
+        kami memberikan kabar bahagia ini dan memohon restu dari bapak, ibu, &amp; 
+        rekan sekalian untuk senantiasa mendoakan kelancaran acara 
+        pernikahan kami.</p>
+      <div className='d-flex flex-column align-items-center'>
+        {/* <img src={user} alt="icon" style={{ width: "180px", height: "180px" }} />
+        <img src={user} alt="icon" style={{ width: "180px", height: "180px" }} /> */}
+        <div className="card" style={{width: "18rem"}}>
+          <img className="card-img-top" src={user} alt="Card image cap" />
+          <div className="card-body">
+            <p className="card-text brides-name">Rahmad Ramdhani</p>
+            <p className="card-text">@dhaniverdant</p>
+          </div>
+        </div>
+        <div className="card" style={{width: "18rem", marginTop: "20px", marginBottom: "20px"}}>
+          <img className="card-img-top" src={user} alt="Card image cap" />
+          <div className="card-body">
+            <p className="card-text brides-name">Utari Sapta Anugrah</p>
+            <p className="card-text">@utarisaptaa</p>
+          </div>
+        </div>
       </div>
     </div>
   );

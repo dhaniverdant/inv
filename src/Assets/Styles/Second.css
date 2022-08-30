@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Qwitcher+Grypen');
+
+.second-wrapper {
+  /* padding-top: 70px; */
+  font-family: 'Josefin Sans', cursive;
+  font-size: calc(8px + 2vmin);
+}
+
+.greetings {
+  margin-top: 20px;
+  font-family: 'Josefin Sans', cursive;
+  font-size: calc(14px + 2vmin);
+}
+
+.brides-name {
+  font-size: calc(32px + 2vmin);
+  font-family: 'Qwitcher Grypen';
+  font-weight: 600;
+}
