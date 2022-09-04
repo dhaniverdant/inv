@@ -13,6 +13,11 @@
   font-size: calc(14px + 2vmin);
 }
 
+.greetings-intro {
+  text-align: justify;
+  padding: 0 22px;
+}
+
 .brides-name {
   font-size: calc(32px + 2vmin);
   font-family: 'Qwitcher Grypen';

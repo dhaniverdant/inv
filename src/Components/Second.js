@@ -1,13 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import user from '../Assets/Images/user.jpg';
+import user from '../Assets/Images/img1.JPG';
 import '../Assets/Styles/Second.css';
 
 const Second = () => {
   return (
     <div id="second">
       <div className='greetings'>Assalamu’alaikum Wr. Wb.</div>
-      <p>Tanpa mengurangi rasa hormat,
+      <p className='container greetings-intro'>Tanpa mengurangi rasa hormat,
         kami memberikan kabar bahagia ini dan memohon restu dari bapak, ibu, &amp; 
         rekan sekalian untuk senantiasa mendoakan kelancaran acara 
         pernikahan kami.</p>
