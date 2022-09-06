@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Qwitcher+Grypen');
+
+.third-wrapper {
+  /* padding-top: 70px; */
+  font-family: 'Josefin Sans', cursive;
+  font-size: calc(8px + 2vmin);
+  background-image: url('../Images/bg2.jpg');
+  padding-bottom: 40px;
+}
+
+.our-agenda-title {
+  padding: 20px 0;
+  font-family: 'Josefin Sans', cursive;
+  font-size: calc(20px + 2vmin);
+}
+
+.agenda-map-wrapper {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 0 24px;
+  padding: 12px;
+}
+
+.agenda-wrapper {
+  text-align: left;
+  display: flex;
+}
+
+.agenda-title {
+  font-size: calc(14px + 2vmin);
+}
+
+.brides-name {
+  font-size: calc(32px + 2vmin);
+  font-family: 'Qwitcher Grypen';
+  font-weight: 600;
+}
