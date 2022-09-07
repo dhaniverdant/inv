@@ -10,7 +10,6 @@ import '../Assets/Styles/App.css';
 
 function Landing() {
   let { id } = useParams();
-  // const bannerImage = require('../Assets/Images/ai_lemak.JPG');
   const [open, setOpen] = useState(false);
   const showHeader = open ? 
   <div>

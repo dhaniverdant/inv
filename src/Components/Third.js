@@ -1,9 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../Assets/Styles/Third.css';
-import calendar from '../Assets/Images/u_calendar-alt.png';
-import clock from '../Assets/Images/u_clock-seven.png';
-import marker from '../Assets/Images/u_map-marker.png';
+import calendar from '../Assets/Images/u_calendar-alt.svg';
+import clock from '../Assets/Images/u_clock-seven.svg';
+import marker from '../Assets/Images/u_map-marker.svg';
 
 const Third = () => {
   return (
