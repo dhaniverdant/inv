@@ -10,9 +10,8 @@
 
 .App-header {
   min-height: 100vh;
-  color: white;
-  /* background-image: url('../Images/ai_lemak.JPG'); */
-  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  color: #f4f4f3;
+  background: url('../Images/bg6.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -23,7 +22,8 @@
 }
 
 .intro {
-  padding-top: 40%;
+  padding-top: 30%;
+  /* margin-bottom: -20px; */
   font-family: 'Josefin Sans', cursive;
   font-size: calc(8px + 2vmin);
 }
@@ -31,10 +31,11 @@
 .our-name {
   font-size: calc(50px + 2vmin);
   font-family: 'Qwitcher Grypen';
+  font-weight: 500;
 }
 
 .to-intro {
-  margin-top: 50%;
+  margin-top: 40%;
 }
 
 .receiver-name {
