@@ -8,9 +8,9 @@ import marker from '../Assets/Images/u_map-marker.svg';
 const Third = () => {
   return (
     <div id='third' className='third-wrapper'>
-      <div className='our-agenda-title'>ACARA KAMI</div>
-      <div className='agenda-title'>Akad Nikah</div>
+      <div className='our-agenda-title'>Acara Kami</div>
       <div className='agenda-map-wrapper'>
+      <div className='agenda-title'>Akad Nikah</div>
         <div className='agenda-wrapper'>
           <div style={{ width: "15%" }}>
             <img src={calendar} />
@@ -20,7 +20,7 @@ const Third = () => {
           <div>
             <div>Jum'at, 23 September 2022</div>
             <div style={{ marginTop: "12px" }}>07.00 - 08.00</div>
-            <div style={{ marginTop: "12px" }}>Dsn. Aimual RT 00 RW 00 Lab. Kuris Lape</div>
+            <div style={{ marginTop: "12px" }}>Rumah Mempelai Wanita, Dsn. Aimual RT 001/RW 003</div>
           </div>
         </div>
         <a href='https://maps.app.goo.gl/Sasy9shtwuqSPA2v7?g_st=it'
@@ -30,11 +30,11 @@ const Third = () => {
         >Lihat Peta</a>
       </div>
 
-      <div className='mt-4 agenda-title'>Resepsi</div>
-      <div className='agenda-map-wrapper'>
+      <div className='mt-4 agenda-map-wrapper'>
+      <div className='agenda-title'>Resepsi</div>
         <div className='agenda-wrapper'>
           <div style={{ width: "15%" }}>
-            <img src={calendar} />
+            <img src={calendar} alt='calendar' />
             <img style={{ marginTop: "10px" }} src={clock} />
             <img style={{ marginTop: "10px" }} src={marker} />
           </div>

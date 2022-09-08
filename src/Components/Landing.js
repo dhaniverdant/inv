@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import '../Assets/Styles/App.css';
+import Fourth from './Fourth';
+import Fifth from './Fifth';
 
 function Landing() {
   let { id } = useParams();
@@ -15,16 +17,17 @@ function Landing() {
   <div>
     <Second />
     <Third />
+    <Fourth />
+    <Fifth />
     <Footer />
   </div> :
   <header className="App-header">
     <div className='intro'>Undangan Pernikahan</div>
     <div className='our-name'>Dhani & Utari</div>
-    <div className=''>Sabtu, 24 September 2022</div>
+    {/* <div className=''>Sabtu, 24 September 2022</div> */}
     <div className='to-intro'>Kepada Yth.</div>
-    <div>Bapak/Ibu/Saudara/i</div>
     <div className='receiver-name'>{id}</div>
-    <button style={{ marginTop: "10%" }} className='btn btn-outline-light' onClick={() => setOpen(true)}>Buka Undangan</button>
+    <button style={{ marginTop: "14px" }} className='btn btn-outline-light' onClick={() => setOpen(true)}>Buka Undangan</button>
   </header>;
 
   return (
