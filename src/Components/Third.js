@@ -40,7 +40,7 @@ const Third = () => {
           </div>
           <div>
             <div>Sabtu, 24 September 2022</div>
-            <div style={{ marginTop: "12px" }}>08.30 - 12.00</div>
+            <div style={{ marginTop: "12px" }}>09.00 - 12.00</div>
             <div style={{ marginTop: "12px" }}>Balai Pertemuan Dsn. Aimual Lab. Kuris Lape</div>
           </div>
         </div>

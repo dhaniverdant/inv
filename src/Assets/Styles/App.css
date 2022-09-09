@@ -6,17 +6,20 @@
   margin: 0;
   height: 100%;
   overflow-y: hidden; 
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
 }
 
 .App-header {
   min-height: 100vh;
   color: #f4f4f3;
-  background: url('../Images/bg6.jpg') no-repeat center center fixed;
+  background: url('../Images/bg6.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  max-width: 100%; 
+  width: 667px;
   display: block;
   height: auto;
 }
@@ -43,8 +46,44 @@
 }
 
 @media only screen and (max-width: 767px) {
+  .App {
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    overflow-y: hidden; 
+  }
+  
   .App-header {
-    width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    color: #f4f4f3;
+    background: url('../Images/bg6.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    max-width: 100%; 
+    display: block;
+    height: auto;
+  }
+  
+  .intro {
+    padding-top: 30%;
+    /* margin-bottom: -20px; */
+    font-family: 'Josefin Sans', cursive;
+    font-size: calc(8px + 2vmin);
+  }
+  
+  .our-name {
+    font-size: calc(50px + 2vmin);
+    font-family: 'Qwitcher Grypen';
+    font-weight: 500;
+  }
+  
+  .to-intro {
+    margin-top: 40%;
+  }
+  
+  .receiver-name {
+    font-size: 28px;
   }
 }

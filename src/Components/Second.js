@@ -8,10 +8,11 @@ const Second = () => {
   return (
     <div id="second" className='second-wrapper'>
       <div className='greetings mb-2'>Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
-      <p className='container greetings-intro'>Tanpa mengurangi rasa hormat,
-        kami memberikan kabar bahagia ini dan memohon restu dari bapak, ibu, &amp; 
+      <p className='container greetings-intro'>Maha suci Allah SWT yang telah menciptakan mahluknya berpasang-pasangan.<br/>
+      Tanpa mengurangi rasa hormat,
+        kami memberikan kabar bahagia ini dan memohon restu dari bapak, ibu dan 
         rekan sekalian untuk senantiasa mendoakan kelancaran acara 
-        pernikahan kami.</p>
+        pernikahan kami:</p>
       <div className='d-flex flex-column align-items-center'>
         {/* <img src={user} alt="icon" style={{ width: "180px", height: "180px" }} />
         <img src={user} alt="icon" style={{ width: "180px", height: "180px" }} /> */}

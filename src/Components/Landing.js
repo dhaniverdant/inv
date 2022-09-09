@@ -14,7 +14,7 @@ function Landing() {
   let { id } = useParams();
   const [open, setOpen] = useState(false);
   const showHeader = open ? 
-  <div>
+  <div style={{ width: '667px' }}>
     <Second />
     <Third />
     <Fourth />
