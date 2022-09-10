@@ -12,7 +12,7 @@ const Third = () => {
       <div className='agenda-map-wrapper'>
       <div className='agenda-title'>Akad Nikah</div>
         <div className='agenda-wrapper'>
-          <div style={{ width: "15%" }}>
+          <div style={{ width: "18%" }}>
             <img src={calendar} />
             <img style={{ marginTop: "10px" }} src={clock} />
             <img style={{ marginTop: "10px" }} src={marker} />
