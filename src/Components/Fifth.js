@@ -16,7 +16,7 @@ const Fifth = () => {
         sedangkan perempuan-perempuan yang baik untuk laki-laki yang baik
         dan laki-laki yang baik untuk perempuan-perempuan yang baik(pula).
         Mereka itu bersih dari apa yang dituduhkan orang. Mereka memperoleh ampunan
-        dan rezeki yang mulia(surga). (QS. An-Nur:26)"
+        dan rezeki yang mulia(surga)." (QS. An-Nur:26)
       </p>
       <div className='greetings'>Wassalamu'alaikum Warahmatullahi Wabarakatuh</div>
       <div className='mt-2'>Kami yang berbahagia,</div>

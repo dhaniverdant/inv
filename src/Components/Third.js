@@ -19,7 +19,7 @@ const Third = () => {
           </div>
           <div>
             <div>Jum'at, 23 September 2022</div>
-            <div style={{ marginTop: "12px" }}>07.00 - 08.00</div>
+            <div style={{ marginTop: "12px" }}>07.00 WITA - 08.00 WITA</div>
             <div style={{ marginTop: "12px" }}>Rumah Mempelai Wanita, Dsn. Aimual RT 001/RW 003</div>
           </div>
         </div>
@@ -31,7 +31,7 @@ const Third = () => {
       </div>
 
       <div className='mt-4 agenda-map-wrapper'>
-      <div className='agenda-title'>Resepsi</div>
+      <div className='agenda-title'>Resepsi Nikah</div>
         <div className='agenda-wrapper'>
           <div style={{ width: "15%" }}>
             <img src={calendar} alt='calendar' />
@@ -40,7 +40,7 @@ const Third = () => {
           </div>
           <div>
             <div>Sabtu, 24 September 2022</div>
-            <div style={{ marginTop: "12px" }}>09.00 - 12.00</div>
+            <div style={{ marginTop: "12px" }}>09.00 WITA - 12.00 WITA</div>
             <div style={{ marginTop: "12px" }}>Balai Pertemuan Dsn. Aimual Lab. Kuris Lape</div>
           </div>
         </div>

@@ -31,3 +31,7 @@
   font-weight: 600;
   color: #DAA520;
 }
+
+.card {
+  border: 2px solid #DAA520;
+}

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Qwitcher+Grypen');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 .third-wrapper {
   /* padding-top: 70px; */
@@ -28,11 +29,6 @@
 }
 
 .agenda-title {
-  font-size: calc(16px + 2vmin);
-}
-
-.brides-name {
-  font-size: calc(32px + 2vmin);
-  font-family: 'Qwitcher Grypen';
-  font-weight: 600;
+  font-size: calc(18px + 2vmin);
+  font-family: 'Dancing Script';
 }
