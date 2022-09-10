@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../Assets/Styles/Third.css';
 import calendar from '../Assets/Images/u_calendar-alt.svg';
 import clock from '../Assets/Images/u_clock-seven.svg';
+import clockNine from '../Assets/Images/u_clock-nine.svg';
 import marker from '../Assets/Images/u_map-marker.svg';
 
 const Third = () => {
@@ -35,7 +36,7 @@ const Third = () => {
         <div className='agenda-wrapper'>
           <div style={{ width: "15%" }}>
             <img src={calendar} alt='calendar' />
-            <img style={{ marginTop: "10px" }} src={clock} />
+            <img style={{ marginTop: "10px" }} src={clockNine} />
             <img style={{ marginTop: "10px" }} src={marker} />
           </div>
           <div>
