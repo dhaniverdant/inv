@@ -7,7 +7,7 @@ const Fifth = () => {
     <div className='fifth-wrapper'>
       <p className='container'>
         Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
-        Bapak, Ibu dan rekan sekalian berkenan hadir untuk memberikan doa restu kepada kami.
+        Bapak, Ibu dan rekan sekalian berkenan hadir untuk memberikan do'a restu kepada kami.
       </p>
       <p className='container verse'>
         "Perempuan-perempuan yang keji untuk laki-laki yang keji,

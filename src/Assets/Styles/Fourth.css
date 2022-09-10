@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Qwitcher+Grypen');
 
 .fourth-wrapper {
-  /* padding-top: 70px; */
   font-family: 'Josefin Sans', cursive;
   font-size: calc(8px + 2vmin);
   background-image: url('../Images/bg2.jpg');
   padding-bottom: 20px;
-}
-
-.our-agenda-title {
-  padding: 20px 0;
-  font-family: 'Josefin Sans', cursive;
-  font-size: calc(20px + 2vmin);
 }
 
 .bank-wrapper {

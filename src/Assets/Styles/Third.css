@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 .third-wrapper {
-  /* padding-top: 70px; */
   font-family: 'Josefin Sans', cursive;
   font-size: calc(8px + 2vmin);
   background-image: url('../Images/bg2.jpg');
@@ -14,6 +13,7 @@
   padding: 20px 0;
   font-family: 'Josefin Sans', cursive;
   font-size: calc(20px + 2vmin);
+  color: #DAA520;
 }
 
 .agenda-map-wrapper {
@@ -31,4 +31,20 @@
 .agenda-title {
   font-size: calc(18px + 2vmin);
   font-family: 'Dancing Script';
+}
+
+.margin-top-ten {
+  margin-top: 10px;
+}
+
+.margin-top-twelve {
+  margin-top: 12px;
+}
+
+.width-eighteen {
+  width: 18%;
+}
+
+.width-fifteen {
+  width: 15%;
 }

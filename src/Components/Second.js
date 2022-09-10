@@ -1,26 +1,26 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+import '../Assets/Styles/Second.css';
 import dhani from '../Assets/Images/dhani.jpg';
 import utari from '../Assets/Images/utari.jpg';
-import '../Assets/Styles/Second.css';
 
 const Second = () => {
   return (
     <div id="second" className='second-wrapper'>
       <div className='container greetings mb-2'>Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
-      <p className='container greetings-intro'>Maha suci Allah SWT yang telah menciptakan mahluknya berpasang-pasangan.<br/>
-      Tanpa mengurangi rasa hormat,
-        kami memberikan kabar bahagia ini dan memohon restu dari bapak, ibu dan 
+      <p className='container greetings-intro'>Maha suci Allah SWT yang telah menciptakan mahluknya berpasang-pasangan.<br />
+        Tanpa mengurangi rasa hormat,
+        kami memberikan kabar bahagia ini dan memohon restu dari Bapak, Ibu dan
         rekan sekalian untuk acara pernikahan kami:</p>
       <div className='d-flex flex-column align-items-center'>
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card first-card">
           <img className="card-img-top" src={dhani} alt="Card cap" />
           <div className="card-body">
             <p className="card-text brides-name">Rahmad Ramdhani</p>
             <p className="card-text">Putra dari Bapak Jamaluddin dan Ibu Rahmaniar</p>
           </div>
         </div>
-        <div className="card" style={{width: "18rem", marginTop: "20px", marginBottom: "20px"}}>
+        <div className="card second-card">
           <img className="card-img-top" src={utari} alt="Card cap" />
           <div className="card-body">
             <p className="card-text brides-name">Utari Sapta Anugrah</p>

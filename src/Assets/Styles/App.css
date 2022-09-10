@@ -7,7 +7,6 @@
   height: 100%;
   overflow-y: hidden; 
   display: flex;
-  /* flex-direction: row; */
   justify-content: center;
 }
 
@@ -24,9 +23,12 @@
   height: auto;
 }
 
+.section-wrapper {
+  width: 667px;
+}
+
 .intro {
   padding-top: 30%;
-  /* margin-bottom: -20px; */
   font-family: 'Josefin Sans', cursive;
   font-size: calc(8px + 2vmin);
 }
@@ -68,7 +70,6 @@
   
   .intro {
     padding-top: 30%;
-    /* margin-bottom: -20px; */
     font-family: 'Josefin Sans', cursive;
     font-size: calc(8px + 2vmin);
   }

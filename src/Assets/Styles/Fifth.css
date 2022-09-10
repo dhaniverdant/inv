@@ -10,13 +10,6 @@
   padding: 20px 0;
 }
 
-.our-agenda-title {
-  padding: 20px 0;
-  font-family: 'Josefin Sans', cursive;
-  font-size: calc(20px + 2vmin);
-  color: black;
-}
-
 .bank-wrapper {
   width: 80%;
 }
