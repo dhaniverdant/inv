@@ -8,8 +8,7 @@ const Second = () => {
   return (
     <div id="second" className='second-wrapper'>
       <div className='container greetings mb-2'>Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
-      <p className='container greetings-intro'>Maha suci Allah SWT yang telah menciptakan mahluknya berpasang-pasangan.<br />
-        Tanpa mengurangi rasa hormat,
+      <p className='container greetings-intro'>Maha suci Allah SWT yang telah menciptakan mahluknya berpasang-pasangan. Tanpa mengurangi rasa hormat,
         kami memberikan kabar bahagia ini dan memohon restu dari Bapak, Ibu dan
         rekan sekalian untuk acara pernikahan kami:</p>
       <div className='d-flex flex-column align-items-center'>

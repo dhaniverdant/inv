@@ -18,7 +18,7 @@
 
 .greetings-intro {
   color: #DAA520;
-  text-align: justify;
+  text-align: center;
   padding: 0 22px;
   font-size: calc(6px + 2vmin);
 }
