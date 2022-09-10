@@ -7,7 +7,7 @@
   font-family: 'Josefin Sans', cursive;
   font-size: calc(8px + 2vmin);
   background-image: url('../Images/bg2.jpg');
-  padding-bottom: 40px;
+  padding: 20px 0;
 }
 
 .our-agenda-title {

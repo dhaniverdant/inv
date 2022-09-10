@@ -17,7 +17,7 @@ function Landing() {
   <div style={{ width: '667px' }}>
     <Second />
     <Third />
-    <Fourth />
+    {/* <Fourth /> */}
     <Fifth />
     <Footer />
   </div> :

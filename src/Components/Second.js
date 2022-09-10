@@ -7,7 +7,7 @@ import '../Assets/Styles/Second.css';
 const Second = () => {
   return (
     <div id="second" className='second-wrapper'>
-      <div className='greetings mb-2'>Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
+      <div className='container greetings mb-2'>Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
       <p className='container greetings-intro'>Maha suci Allah SWT yang telah menciptakan mahluknya berpasang-pasangan.<br/>
       Tanpa mengurangi rasa hormat,
         kami memberikan kabar bahagia ini dan memohon restu dari bapak, ibu dan 
