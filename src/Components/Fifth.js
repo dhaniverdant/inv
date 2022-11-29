@@ -19,9 +19,9 @@ const Fifth = () => {
       </p>
       <div className='greetings'>Wassalamu'alaikum Warahmatullahi Wabarakatuh</div>
       <div className='mt-2'>Kami yang berbahagia,</div>
-      <div className='brides-name mb-3'>Dhani & Utari</div>
-      <div>Keluarga Bpk. Jamaluddin & Ibu Rahmaniar</div>
-      <div>Keluarga Bpk. Abdul Wahab M. Nur & Ibu Nursian</div>
+      <div className='brides-name mb-3'>Arif & Rizkia</div>
+      <div>Keluarga Bpk. Side & Ibu Susmiati</div>
+      <div>Keluarga Bpk. Agus Mulyana & Ibu Nengsih</div>
     </div>
   );
 }
