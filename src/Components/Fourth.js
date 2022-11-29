@@ -4,7 +4,7 @@ import '../Assets/Styles/Fourth.css';
 import bsi from '../Assets/Images/bsi.png';
 
 const Fourth = () => {
-  const [rekBsi] = useState(7146755466);
+  const [rekBsi] = useState(3460344548);
 
   return (
     <div className='fourth-wrapper d-flex flex-column align-items-center'>
@@ -13,7 +13,7 @@ const Fourth = () => {
         <div className='d-flex align-items-center justify-content-center'>
           <img src={bsi} alt='bsi' style={{ width: '50px', height: '42px' }} />
         </div>
-        <div>An. Utari Sapta Anugrah</div>
+        <div>An. Rizkia Anjani</div>
         <div>{rekBsi}</div>
         <button
           type='button'
