@@ -4,6 +4,7 @@ import '../Assets/Styles/App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Second from './Second';
 import Third from './Third';
+import Fourth from './Fourth';
 import Fifth from './Fifth';
 import Footer from './Footer';
 
@@ -14,12 +15,13 @@ function Landing() {
     <div className='section-wrapper'>
       <Second />
       <Third />
+      <Fourth />
       <Fifth />
       <Footer />
     </div> :
     <header className="App-header">
       <div className='intro'>Undangan Pernikahan</div>
-      <div className='our-name'>Rizka & Arif</div>
+      <div className='our-name'>Rizkia & Arif</div>
       <div className='to-intro'>Kepada Yth.</div>
       <div className='receiver-name'>{id}</div>
       <button style={{ marginTop: "14px" }} className='btn btn-outline-light' onClick={() => setOpen(true)}>Buka Undangan</button>
