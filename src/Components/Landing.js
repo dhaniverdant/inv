@@ -19,7 +19,7 @@ function Landing() {
     </div> :
     <header className="App-header">
       <div className='intro'>Undangan Pernikahan</div>
-      <div className='our-name'>Dhani & Utari</div>
+      <div className='our-name'>Rizka & Arif</div>
       <div className='to-intro'>Kepada Yth.</div>
       <div className='receiver-name'>{id}</div>
       <button style={{ marginTop: "14px" }} className='btn btn-outline-light' onClick={() => setOpen(true)}>Buka Undangan</button>
