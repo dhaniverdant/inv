@@ -15,15 +15,15 @@ const Second = () => {
         <div className="card first-card">
           <img className="card-img-top" src={dhani} alt="Card cap" />
           <div className="card-body">
-            <p className="card-text brides-name">Rahmad Ramdhani</p>
-            <p className="card-text">Putra dari Bapak Jamaluddin dan Ibu Rahmaniar</p>
+            <p className="card-text brides-name">Arifuddin</p>
+            <p className="card-text">Putra dari Bapak Side dan Ibu Susmiati</p>
           </div>
         </div>
         <div className="card second-card">
           <img className="card-img-top" src={utari} alt="Card cap" />
           <div className="card-body">
-            <p className="card-text brides-name">Utari Sapta Anugrah</p>
-            <p className="card-text">Putri dari Bapak Abdul Wahab M. Nur dan Ibu Nursian</p>
+            <p className="card-text brides-name">Rizkia Anjani</p>
+            <p className="card-text">Putri dari Bapak Agus Mulyana dan Ibu Nengsih</p>
           </div>
         </div>
       </div>
