@@ -19,9 +19,9 @@ const Third = () => {
             <img className='margin-top-ten' src={marker} />
           </div>
           <div>
-            <div>Jum'at, 23 September 2022</div>
-            <div className='margin-top-twelve'>07.00 WITA - 08.00 WITA</div>
-            <div className='margin-top-twelve'>Rumah Mempelai Wanita, Dsn. Aimual RT 001/RW 003</div>
+            <div>Minggu, 25 Desember 2022</div>
+            <div className='margin-top-twelve'>08.00 WIB</div>
+            <div className='margin-top-twelve'>Aula Pondok Pesantren Sirnamiskin</div>
           </div>
         </div>
         <a href='https://maps.app.goo.gl/Sasy9shtwuqSPA2v7?g_st=it'
@@ -40,9 +40,9 @@ const Third = () => {
             <img className='margin-top-ten' src={marker} />
           </div>
           <div>
-            <div>Sabtu, 24 September 2022</div>
-            <div className='margin-top-twelve'>09.00 WITA - 12.00 WITA</div>
-            <div className='margin-top-twelve'>Balai Pertemuan Dsn. Aimual Lab. Kuris Lape</div>
+            <div>Minggu, 25 Desember 2022</div>
+            <div className='margin-top-twelve'>11.00 WITA - 14.00 WIB</div>
+            <div className='margin-top-twelve'>Aula Pondok Pesantren Sirnamiskin, Jl Kopo Blk 433 RT 08 RW 07</div>
           </div>
         </div>
         <a href='https://maps.app.goo.gl/2hcTBexWEarecYvb8?g_st=it'
