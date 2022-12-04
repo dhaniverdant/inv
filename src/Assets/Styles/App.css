@@ -31,12 +31,13 @@
   padding-top: 30%;
   font-family: 'Josefin Sans', cursive;
   font-size: calc(8px + 2vmin);
+  font-weight: bold;
 }
 
 .our-name {
   font-size: calc(50px + 2vmin);
   font-family: 'Qwitcher Grypen';
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .to-intro {
@@ -72,12 +73,13 @@
     padding-top: 30%;
     font-family: 'Josefin Sans', cursive;
     font-size: calc(8px + 2vmin);
+    font-weight: bold;
   }
   
   .our-name {
     font-size: calc(50px + 2vmin);
     font-family: 'Qwitcher Grypen';
-    font-weight: 500;
+    font-weight: bold;
   }
   
   .to-intro {
