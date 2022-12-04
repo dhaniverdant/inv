@@ -12,7 +12,7 @@
 
 .App-header {
   min-height: 100vh;
-  color: #e3bc30;
+  color: #e3b81e;
   background: url('../Images/rizkiaarif.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -57,7 +57,7 @@
   
   .App-header {
     min-height: 100vh;
-    color: #e3bc30;
+    color: #e3b81e;
     background: url('../Images/rizkiaarif.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -81,7 +81,7 @@
   }
   
   .to-intro {
-    margin-top: 50%;
+    margin-top: 60%;
   }
   
   .receiver-name {
