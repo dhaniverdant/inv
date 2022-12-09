@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../Assets/Styles/Second.css';
-import dhani from '../Assets/Images/dhani.jpg';
-import utari from '../Assets/Images/utari.jpg';
+import dhani from '../Assets/Images/avatar-b-1.png';
+import utari from '../Assets/Images/avatar-a.png';
 
 const Second = () => {
   return (
