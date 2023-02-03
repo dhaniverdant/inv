@@ -27,7 +27,7 @@ const Third = () => {
         <a href='https://maps.app.goo.gl/Sasy9shtwuqSPA2v7?g_st=it'
           target="_blank"
           type='button'
-          className='btn btn-success btn-block mt-2'
+          className='btn btn-success btn-block mt-2' rel="noreferrer"
         >Lihat Peta</a>
       </div>
 
@@ -48,7 +48,7 @@ const Third = () => {
         <a href='https://maps.app.goo.gl/2hcTBexWEarecYvb8?g_st=it'
           target="_blank"
           type='button'
-          className='btn btn-success btn-block mt-2'
+          className='btn btn-success btn-block mt-2' rel="noreferrer"
         >Lihat Peta</a>
       </div>
     </div>
